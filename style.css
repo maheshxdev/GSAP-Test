@@ -1,0 +1,99 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+
+#page1{
+     width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#page2{
+     width: 100%;
+    height: 100%;
+    background-color: lightpink;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    
+}
+#page3{
+     width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#page2 h1{
+    font-size: 10vw;
+    white-space: nowrap;
+    /* font-weight: 400; */
+    text-transform: uppercase;
+}
+
+#nav{
+    display: flex;
+    background-color: lightpink;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+#nav #box{
+    display: flex;
+    gap: 10px;
+}
+#nav h2{
+    color: black;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+#tagLine{
+    color: lightpink;
+    margin-bottom: 100px;
+    margin-top: 170px;
+    font-size: 4vw;
+}
+
+#hero #content{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    gap: 80px;
+}
+#box1,#box2{
+    background-color: lightpink;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    border: 5px solid rgb(245, 138, 154);
+    box-shadow: 0px 0px 30px white;
+    
+}
+
+#page3 h1,h2{
+    color: lightpink;
+}
+#page3 h1{
+    font-size: 10vw;
+}
+#page3 h2{
+    font-size: 10vw;
+}
+
+#page3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
